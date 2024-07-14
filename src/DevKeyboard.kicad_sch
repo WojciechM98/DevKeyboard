@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "eb0a7a47-dd7a-4a84-9796-f2d6b72a167c")
+	(paper "A4")
+	(title_block
+		(title "DevKeyboard")
+		(date "2024-07-13")
+		(rev "1.0")
+		(company "WM")
+	)
+	(lib_symbols)
+	(sheet
+		(at 82.55 83.185)
+		(size 27.94 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31a5450b-79a3-4acf-b17c-5b6f6a7818fa")
+		(property "Sheetname" "Processor"
+			(at 82.55 82.4734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processor.kicad_sch"
+			(at 82.55 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKeyboard"
+				(path "/eb0a7a47-dd7a-4a84-9796-f2d6b72a167c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 82.55)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f93f59a-891c-4eb6-8585-e0dc7acc49ac")
+		(property "Sheetname" "Power"
+			(at 129.54 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 129.54 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKeyboard"
+				(path "/eb0a7a47-dd7a-4a84-9796-f2d6b72a167c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 183.515 83.82)
+		(size 29.845 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c371fbbb-5a42-46f2-b0f9-aba941ff418c")
+		(property "Sheetname" "Switches"
+			(at 183.515 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 183.515 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKeyboard"
+				(path "/eb0a7a47-dd7a-4a84-9796-f2d6b72a167c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
