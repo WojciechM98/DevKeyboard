@@ -1,0 +1,104 @@
+(footprint "oled_test"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b949b14-0538-4a39-b1bd-9827dd7cf71b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "oled_test"
+		(at -0.2 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "407f486f-2b33-4396-8086-c1981710723d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "oled_test"
+		(at -0.2 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a72ae49-8ce9-4cc3-84e5-e511378d7b28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.2 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61fd9925-c832-42bf-a223-40a8c86eb47f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.2 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2285af80-328b-47d3-bc5e-ac7d4d04ee8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -16.6 -10)
+		(end 16.4 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "797edbad-35dc-4e8a-b6d1-424adc09b131")
+	)
+	(model "${KIPRJMOD}/Lib/oled_test/OLED_096_assy.stp"
+		(hide yes)
+		(offset
+			(xyz 0.2 -13 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "${KIPRJMOD}/Lib/oled_test/DFR0648 v1.step"
+		(offset
+			(xyz 0 0 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
